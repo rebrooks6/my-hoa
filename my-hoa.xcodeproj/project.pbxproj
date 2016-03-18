@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F410ABDB1C9C8C5B00171580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410ABDA1C9C8C5B00171580 /* AppDelegate.swift */; };
+		F410ABDD1C9C8C5B00171580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410ABDC1C9C8C5B00171580 /* ViewController.swift */; };
+		F410ABE01C9C8C5B00171580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F410ABDE1C9C8C5B00171580 /* Main.storyboard */; };
+		F410ABE21C9C8C5B00171580 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F410ABE11C9C8C5B00171580 /* Images.xcassets */; };
+		F410ABE51C9C8C5B00171580 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F410ABE31C9C8C5B00171580 /* LaunchScreen.xib */; };
+		F410ABF11C9C8C5B00171580 /* my_hoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410ABF01C9C8C5B00171580 /* my_hoaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F410ABEB1C9C8C5B00171580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F410ABCD1C9C8C5A00171580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F410ABD41C9C8C5A00171580;
+			remoteInfo = "my-hoa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F410ABD51C9C8C5B00171580 /* my-hoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-hoa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F410ABD91C9C8C5B00171580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F410ABDA1C9C8C5B00171580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F410ABDC1C9C8C5B00171580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F410ABDF1C9C8C5B00171580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F410ABE11C9C8C5B00171580 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F410ABE41C9C8C5B00171580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F410ABEA1C9C8C5B00171580 /* my-hoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-hoaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F410ABEF1C9C8C5B00171580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F410ABF01C9C8C5B00171580 /* my_hoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_hoaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F410ABD21C9C8C5A00171580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F410ABE71C9C8C5B00171580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F410ABCC1C9C8C5A00171580 = {
+			isa = PBXGroup;
+			children = (
+				F410ABD71C9C8C5B00171580 /* my-hoa */,
+				F410ABED1C9C8C5B00171580 /* my-hoaTests */,
+				F410ABD61C9C8C5B00171580 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F410ABD61C9C8C5B00171580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F410ABD51C9C8C5B00171580 /* my-hoa.app */,
+				F410ABEA1C9C8C5B00171580 /* my-hoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F410ABD71C9C8C5B00171580 /* my-hoa */ = {
+			isa = PBXGroup;
+			children = (
+				F410ABDA1C9C8C5B00171580 /* AppDelegate.swift */,
+				F410ABDC1C9C8C5B00171580 /* ViewController.swift */,
+				F410ABDE1C9C8C5B00171580 /* Main.storyboard */,
+				F410ABE11C9C8C5B00171580 /* Images.xcassets */,
+				F410ABE31C9C8C5B00171580 /* LaunchScreen.xib */,
+				F410ABD81C9C8C5B00171580 /* Supporting Files */,
+			);
+			path = "my-hoa";
+			sourceTree = "<group>";
+		};
+		F410ABD81C9C8C5B00171580 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F410ABD91C9C8C5B00171580 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F410ABED1C9C8C5B00171580 /* my-hoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F410ABF01C9C8C5B00171580 /* my_hoaTests.swift */,
+				F410ABEE1C9C8C5B00171580 /* Supporting Files */,
+			);
+			path = "my-hoaTests";
+			sourceTree = "<group>";
+		};
+		F410ABEE1C9C8C5B00171580 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F410ABEF1C9C8C5B00171580 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F410ABD41C9C8C5A00171580 /* my-hoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F410ABF41C9C8C5B00171580 /* Build configuration list for PBXNativeTarget "my-hoa" */;
+			buildPhases = (
+				F410ABD11C9C8C5A00171580 /* Sources */,
+				F410ABD21C9C8C5A00171580 /* Frameworks */,
+				F410ABD31C9C8C5A00171580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "my-hoa";
+			productName = "my-hoa";
+			productReference = F410ABD51C9C8C5B00171580 /* my-hoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F410ABE91C9C8C5B00171580 /* my-hoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F410ABF71C9C8C5B00171580 /* Build configuration list for PBXNativeTarget "my-hoaTests" */;
+			buildPhases = (
+				F410ABE61C9C8C5B00171580 /* Sources */,
+				F410ABE71C9C8C5B00171580 /* Frameworks */,
+				F410ABE81C9C8C5B00171580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F410ABEC1C9C8C5B00171580 /* PBXTargetDependency */,
+			);
+			name = "my-hoaTests";
+			productName = "my-hoaTests";
+			productReference = F410ABEA1C9C8C5B00171580 /* my-hoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F410ABCD1C9C8C5A00171580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Robert Brooks";
+				TargetAttributes = {
+					F410ABD41C9C8C5A00171580 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F410ABE91C9C8C5B00171580 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F410ABD41C9C8C5A00171580;
+					};
+				};
+			};
+			buildConfigurationList = F410ABD01C9C8C5A00171580 /* Build configuration list for PBXProject "my-hoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F410ABCC1C9C8C5A00171580;
+			productRefGroup = F410ABD61C9C8C5B00171580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F410ABD41C9C8C5A00171580 /* my-hoa */,
+				F410ABE91C9C8C5B00171580 /* my-hoaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F410ABD31C9C8C5A00171580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F410ABE01C9C8C5B00171580 /* Main.storyboard in Resources */,
+				F410ABE51C9C8C5B00171580 /* LaunchScreen.xib in Resources */,
+				F410ABE21C9C8C5B00171580 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F410ABE81C9C8C5B00171580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F410ABD11C9C8C5A00171580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F410ABDD1C9C8C5B00171580 /* ViewController.swift in Sources */,
+				F410ABDB1C9C8C5B00171580 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F410ABE61C9C8C5B00171580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F410ABF11C9C8C5B00171580 /* my_hoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F410ABEC1C9C8C5B00171580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F410ABD41C9C8C5A00171580 /* my-hoa */;
+			targetProxy = F410ABEB1C9C8C5B00171580 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F410ABDE1C9C8C5B00171580 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F410ABDF1C9C8C5B00171580 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F410ABE31C9C8C5B00171580 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F410ABE41C9C8C5B00171580 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F410ABF21C9C8C5B00171580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F410ABF31C9C8C5B00171580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F410ABF51C9C8C5B00171580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "my-hoa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F410ABF61C9C8C5B00171580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "my-hoa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F410ABF81C9C8C5B00171580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "my-hoaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-hoa.app/my-hoa";
+			};
+			name = Debug;
+		};
+		F410ABF91C9C8C5B00171580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "my-hoaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-hoa.app/my-hoa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F410ABD01C9C8C5A00171580 /* Build configuration list for PBXProject "my-hoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F410ABF21C9C8C5B00171580 /* Debug */,
+				F410ABF31C9C8C5B00171580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F410ABF41C9C8C5B00171580 /* Build configuration list for PBXNativeTarget "my-hoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F410ABF51C9C8C5B00171580 /* Debug */,
+				F410ABF61C9C8C5B00171580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F410ABF71C9C8C5B00171580 /* Build configuration list for PBXNativeTarget "my-hoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F410ABF81C9C8C5B00171580 /* Debug */,
+				F410ABF91C9C8C5B00171580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F410ABCD1C9C8C5A00171580 /* Project object */;
+}
