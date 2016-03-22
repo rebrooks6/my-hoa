@@ -13,6 +13,10 @@
 		F410ABE21C9C8C5B00171580 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F410ABE11C9C8C5B00171580 /* Images.xcassets */; };
 		F410ABE51C9C8C5B00171580 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F410ABE31C9C8C5B00171580 /* LaunchScreen.xib */; };
 		F410ABF11C9C8C5B00171580 /* my_hoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410ABF01C9C8C5B00171580 /* my_hoaTests.swift */; };
+		F410ABFC1C9C8CBE00171580 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410ABFB1C9C8CBE00171580 /* Post.swift */; };
+		F410ABFF1CA05E1400171580 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410ABFE1CA05E1400171580 /* PostCell.swift */; };
+		F410AC021CA064D600171580 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410AC011CA064D600171580 /* AddPostVC.swift */; };
+		F410AC051CA079F800171580 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410AC041CA079F800171580 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		F410ABEA1C9C8C5B00171580 /* my-hoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-hoaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F410ABEF1C9C8C5B00171580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F410ABF01C9C8C5B00171580 /* my_hoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_hoaTests.swift; sourceTree = "<group>"; };
+		F410ABFB1C9C8CBE00171580 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F410ABFE1CA05E1400171580 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		F410AC011CA064D600171580 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		F410AC041CA079F800171580 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +85,12 @@
 		F410ABD71C9C8C5B00171580 /* my-hoa */ = {
 			isa = PBXGroup;
 			children = (
+				F410AC031CA079E600171580 /* Services */,
+				F410ABFA1C9C8CA500171580 /* Model */,
+				F410ABFD1CA05DE900171580 /* View */,
+				F410AC001CA0647700171580 /* Controller */,
 				F410ABDA1C9C8C5B00171580 /* AppDelegate.swift */,
-				F410ABDC1C9C8C5B00171580 /* ViewController.swift */,
-				F410ABDE1C9C8C5B00171580 /* Main.storyboard */,
 				F410ABE11C9C8C5B00171580 /* Images.xcassets */,
-				F410ABE31C9C8C5B00171580 /* LaunchScreen.xib */,
 				F410ABD81C9C8C5B00171580 /* Supporting Files */,
 			);
 			path = "my-hoa";
@@ -110,6 +119,41 @@
 				F410ABEF1C9C8C5B00171580 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F410ABFA1C9C8CA500171580 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F410ABFB1C9C8CBE00171580 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F410ABFD1CA05DE900171580 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F410ABFE1CA05E1400171580 /* PostCell.swift */,
+				F410ABDE1C9C8C5B00171580 /* Main.storyboard */,
+				F410ABE31C9C8C5B00171580 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F410AC001CA0647700171580 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F410ABDC1C9C8C5B00171580 /* ViewController.swift */,
+				F410AC011CA064D600171580 /* AddPostVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F410AC031CA079E600171580 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F410AC041CA079F800171580 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +200,7 @@
 		F410ABCD1C9C8C5A00171580 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Robert Brooks";
 				TargetAttributes = {
@@ -212,8 +257,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F410ABFC1C9C8CBE00171580 /* Post.swift in Sources */,
 				F410ABDD1C9C8C5B00171580 /* ViewController.swift in Sources */,
+				F410AC021CA064D600171580 /* AddPostVC.swift in Sources */,
+				F410AC051CA079F800171580 /* DataService.swift in Sources */,
 				F410ABDB1C9C8C5B00171580 /* AppDelegate.swift in Sources */,
+				F410ABFF1CA05E1400171580 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +458,7 @@
 				F410ABF61C9C8C5B00171580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F410ABF71C9C8C5B00171580 /* Build configuration list for PBXNativeTarget "my-hoaTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +467,7 @@
 				F410ABF91C9C8C5B00171580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
